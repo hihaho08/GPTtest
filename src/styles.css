@@ -2314,6 +2314,141 @@ em {
     height: 360px;
   }
 }
+/* Keep desktop copy readable across laptop and wide-screen breakpoints. */
+@media (min-width: 961px) {
+  .hero-description {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    max-width: 440px;
+  }
+  .section-heading > p,
+  .service-card p,
+  .about-content > p,
+  .approach-step > p,
+  .faq-grid > div:first-child > p,
+  .faq-list summary,
+  .faq-answer p,
+  .contact-top p,
+  .contact-item > strong,
+  .dialog-intro,
+  .select-wrap select,
+  .dialog textarea,
+  .service-topics > li,
+  .privacy-copy {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  .about-content .about-lead {
+    font-size: 1.0625rem;
+  }
+  .about-content > p {
+    max-width: 480px;
+  }
+  .service-card p,
+  .approach-step > p {
+    max-width: none;
+  }
+  .button,
+  .header-appointment,
+  .hero-actions .button,
+  .text-link,
+  .hero-actions .text-link,
+  .services-footnote .text-link,
+  .about-content .text-link,
+  .desktop-nav > a,
+  .principles-inner > p,
+  .service-bottom,
+  .contact-item .contact-email,
+  .footer-navigation,
+  .form-label,
+  .appointment-phone {
+    font-size: 0.875rem;
+  }
+  .hero-actions {
+    flex-wrap: wrap;
+    gap: 18px 24px;
+  }
+  .hero-assurance {
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
+  .header-appointment {
+    min-height: 45px;
+    gap: 12px;
+  }
+  .eyebrow,
+  .hero-content > .eyebrow,
+  .services-footnote,
+  .contact-item-action,
+  .contact-bottom,
+  .contact-bottom > a,
+  .footer-bottom,
+  .footer-bottom button,
+  .floating-contact > span,
+  .form-note,
+  .appointment-hours {
+    font-size: 0.8125rem;
+  }
+  .hero-content > .eyebrow {
+    letter-spacing: 1.1px;
+  }
+  .principles-inner {
+    padding-block: 20px;
+  }
+  .principles-inner > div {
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    gap: 12px;
+  }
+  .topbar,
+  .hero-assurance,
+  .service-top > span,
+  .faq-index,
+  .contact-item-label,
+  .form-label > span,
+  .modal-eyebrow {
+    font-size: 0.75rem;
+  }
+  .brand-text > small,
+  .footer .brand-text > small,
+  .about-art-quote small,
+  .about-signature > small,
+  .image-side-label {
+    font-size: 0.625rem;
+    letter-spacing: 1.2px;
+  }
+  .about-art-index {
+    font-size: 0.6875rem;
+  }
+  .hero-corner > span {
+    font-size: 0.4375rem;
+  }
+  .contact-item {
+    min-width: 0;
+  }
+  .contact-item > strong {
+    overflow-wrap: anywhere;
+  }
+  .contact-bottom {
+    flex-wrap: wrap;
+    padding-block: 16px;
+    row-gap: 12px;
+  }
+  .footer-navigation {
+    flex-wrap: wrap;
+    gap: 12px 20px;
+  }
+  .back-to-top {
+    flex-shrink: 0;
+  }
+  .dialog {
+    width: min(600px, calc(100% - 32px));
+  }
+  .select-wrap > svg {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
