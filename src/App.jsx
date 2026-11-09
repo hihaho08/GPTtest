@@ -45,10 +45,6 @@ function Brand({ light = false, onClick }) {
       onClick={onClick}
       aria-label="Ayşegül Çetinkaya, ana sayfa"
     >
-      <span className="brand-monogram" aria-hidden="true">
-        a<span>ç</span>
-        <i />
-      </span>
       <span className="brand-text">
         <span>Ayşegül Çetinkaya</span>
         <small>AVUKATLIK & HUKUKİ DANIŞMANLIK</small>
